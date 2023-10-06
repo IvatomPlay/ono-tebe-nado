@@ -1,0 +1,28 @@
+.footer {
+  width: 1340px;
+  margin: 92px auto;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: white;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu-list {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+.socials {
+ display: flex;
+ justify-content: space-evenly; 
+ gap: 48px;
+}
+
+.socials-item {
+  width: 48px;
+}

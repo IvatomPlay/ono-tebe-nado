@@ -1,1 +1,5 @@
-/* место для вашего кода */
+@import url(./header.css);
+@import url(./section1.css);
+@import url(./section2.css);
+@import url(./section3.css);
+@import url(./footer.css);

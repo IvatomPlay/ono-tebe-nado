@@ -1,0 +1,47 @@
+.header {
+  width: 1340px;
+  margin: 92px auto;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: white;
+}
+
+.header__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  box-sizing: border-box;
+  max-width: 388px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: circle;
+}
+
+.logo {
+  box-sizing: border-box;
+  max-width: 148px;
+  max-height: 105px;
+  margin: auto;
+}
+
+.logo__black {
+  width: 136px;
+  height: 102px;
+}
+
+.adress {
+  justify-self: end;
+  max-width: 240px;
+}
+
+.adress__header {
+  font-style: normal;
+  line-height: 24px;
+}

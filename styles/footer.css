@@ -18,9 +18,9 @@
 }
 
 .socials {
- display: flex;
- justify-content: space-evenly; 
- gap: 48px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 48px;
 }
 
 .socials-item {

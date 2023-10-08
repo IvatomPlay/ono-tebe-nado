@@ -26,14 +26,12 @@
 
 .logo {
   box-sizing: border-box;
-  max-width: 148px;
-  max-height: 105px;
   margin: auto;
 }
 
 .logo__black {
-  width: 136px;
-  height: 102px;
+  max-width: 148px;
+  max-height: 105px;
 }
 
 .adress {

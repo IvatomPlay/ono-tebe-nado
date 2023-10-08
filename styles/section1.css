@@ -21,7 +21,6 @@
 .cover__image {
   position: relative;
   z-index: -1;
-  height: 764px;
 }
 
 .cover__image-pic {
@@ -31,6 +30,7 @@
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 757px;
 }
 
 .overlay {
@@ -39,6 +39,7 @@
   z-index: 0;
   width: 100%;
   background-color: rgba( 0, 0, 0, 0.6);
+  height: 757px;
 }
 
 .cover__description {

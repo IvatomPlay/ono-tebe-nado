@@ -32,15 +32,15 @@
 }
 
 .card-1 {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(./images/card-lot-01.jpg);
 }
 
 .card-2 {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(./images/card-lot-02.jpg);
 }
 
 .card-3 {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(./images/card-lot-03.jpg);
 }
 
 .card__overlay {

@@ -39,8 +39,6 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  grid-column: 2/3;
-  grid-row: 2/3;
   justify-content: center;
   gap: 25px;
   font-weight: 400;

@@ -1,39 +1,30 @@
 .cover {
   position: relative;
+  z-index: -1;
   max-width: 1440px;
+  min-height: 757px;
   margin: auto;
-  height: 757px;
+  padding: 0 50px 0 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
 }
 
-.cover__wrapper {
-  display: block;
+.cover__content {
+  position: relative;
+  top: 168px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  gap: 55px;
 }
 
 .cover__title {
-  position: absolute;
+  position: relative;
   z-index: 1;
   width: 100%;
-  min-width: 1100px;
-  margin: 165px auto;
-  padding: 0 50px 0 50px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
-}
-
-.cover__image {
-  position: relative;
-  z-index: -1;
-  height: 100%;
-  overflow: hidden;
-}
-
-.cover__image-pic {
-  position: relative;
-  top: 0;
-  left: 0;
-  background-size: contain;
 }
 
 .overlay {
@@ -41,22 +32,22 @@
   inset: 0;
   z-index: 0;
   width: 100%;
-  background-color: rgba( 0, 0, 0, 0.6);
+  opacity: 0.6;
+  background-color: black;
 }
 
 .cover__description {
-  position: absolute;
+  position: relative;
   z-index: 1;
   display: flex;
   justify-content: end;
   align-items: center;
   gap: 78px;
   width: 100%;
-  margin: 655px auto;
-  padding: 0 50px 0 0;
 }
 
 .description-text {
+  align-items: end;
   color: #fff;
   font-size: 22px;
   text-align: center;
@@ -74,8 +65,9 @@
 }
 
 .aligned-text_right {
+  position: relative;
+  left: 30px;
   text-align: right;
-  margin: 0 -30px 0 0;
 }
 
 .letter-spacing {
@@ -86,14 +78,14 @@
   letter-spacing: 60px;
 }
 
-.btn {
-  width: 257px;
-  height: 52px;
+.bet-button {
+  min-width: 257px;
   border: 1px solid #fff;
+  padding: 12px 32px 12px 32px;
   color: #fff;
   font-family: Raleway, serif;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
-  background-color: rgba(28,28,28,0);
+  background: none;
 }

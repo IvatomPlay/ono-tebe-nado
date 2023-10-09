@@ -11,7 +11,6 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__wrapper">
         <nav class="menu">
           <ul class="menu__list">
             <li class="no-circle"><a href="#main">главная</a></li>
@@ -19,22 +18,16 @@
             <li class="underline"><a href="#about__action">об аукционе</a></li>
           </ul>
         </nav>
-        <div class="logo">
-          <a href="#"><img class="logo__black" src="./images/logo-black.svg" alt="логотип"></a>
-        </div>
-        <div class="adress">
-          <address class="adress__header">
-            <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
-            <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-            <br>
-            наб. Принсенграхт 263-265, Амстердам
-          </address>
-        </div>
-      </div>
+        <a class="logo" href="#"><img src="./images/logo-black.svg" alt="логотип"></a>
+        <address class="address">
+          <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
     </header>
     <main>
       <section id="main" class="cover">
-        <div class="cover__wrapper">
+        <div class="cover__content">
           <h1 class="cover__title">
            <span class="blocked-span letter-spacing">о<span class="letter-spacing-extend">но</span></span>
            <span class="blocked-span aligned-text_center letter-spacing">те<span class="letter-spacing-extend">бе</span></span>
@@ -42,40 +35,35 @@
           </h1>
           <div class="cover__description">
             <p class="description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="btn" type="button" name="сделать ставку">сделать ставку</button>
+            <button class="bet-button" type="button" name="сделать ставку">сделать ставку</button>
           </div>
         </div>
-        <div class="cover__image">
-          <img class="cover__image-pic" src="./images/cover.jpg" alt="фон">
-          <div class="overlay"></div>
-        </div>
+        <div class="overlay"></div>
       </section>
       <section id="watch__lots" class="lots">
         <h2 class="lots__title">лоты</h2>
         <div class="lots__cards">
-          <article class="card card-1">
+          <article class="card card_type_film">
             <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
             <p class="card__info">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-            <div class="card__overlay"></div>
+            <div class="overlay"></div>
           </article>
-          <article class="card card-2">
+          <article class="card card_type_book">
             <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
             <p class="card__info">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-            <div class="card__overlay"></div>
+            <div class="overlay"></div>
           </article>
-          <article class="card card-3">
+          <article class="card card_type_picture">
             <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
             <p class="card__info">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-            <div class="card__overlay"></div>
-          </article>                   
+            <div class="overlay"></div>
+          </article>
         </div>
         <a class="more" href="#">посмотреть больше</a>
       </section>
       <section id="about__action" class="about">
         <div class="about__column">
-          <div class="about__logo">
-            <a href="#"><img class="logo__white" src="./images/logo-white.svg" alt="лого белый"></a>
-          </div>
+          <a class="about__logo" href="#"><img class="logo__white" src="./images/logo-white.svg" alt="лого белый"></a>
           <div class="about__content">
             <h2 class="about__title">Об аукционе</h2>
             <div class="about__text">
@@ -85,31 +73,27 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
-        <div class="footer__content">
-          <div class="adress">
-            <address class="adress__header">
-              <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
-              <br>
-              <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-              <br>
-              наб. Принсенграхт 263-265, Амстердам
-            </address>
-          </div>
-          <nav>
-            <ul class="footer__menu-list">
-              <li><a class="no-circle" href="#main">главная</a></li>
-              <li><a class="underline" href="#watch__lots">посмотреть лоты</a></li>
-              <li><a class="underline" href="#about__action">об аукционе</a></li>
-            </ul>
-          </nav>
-          <div class="socials">
-            <a class="socials-item" href="https://www.youtube.com/" target="_blank"><img src="./images/yt.svg" alt="иконка ютуб"></a>
-            <a class="socials-item" href="https://vk.com/" target="_blank"><img src="./images/vk.svg" alt="иконка вк"></a>
-            <a class="socials-item" href="https://www.pinterest.com/" target="_blank"><img src="./images/pinterest.svg" alt="иконка пинтереста"></a>
-          </div>
-        </div>
-      </footer>
     </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <address class="address">
+          <a class="underline" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>  
+        <nav>
+          <ul class="footer__menu-list">
+            <li><a class="no-circle" href="#main">главная</a></li>
+            <li><a class="underline" href="#watch__lots">посмотреть лоты</a></li>
+            <li><a class="underline" href="#about__action">об аукционе</a></li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <a class="socials-item" href="https://www.youtube.com/" target="_blank"><img src="./images/yt.svg" alt="иконка ютуб"></a>
+          <a class="socials-item" href="https://vk.com/" target="_blank"><img src="./images/vk.svg" alt="иконка вк"></a>
+          <a class="socials-item" href="https://www.pinterest.com/" target="_blank"><img src="./images/pinterest.svg" alt="иконка пинтереста"></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

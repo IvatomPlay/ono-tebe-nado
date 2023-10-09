@@ -22,7 +22,7 @@
   list-style: circle;
 }
 
-.logo{
+.logo {
   display: block;
   max-width: 135px;
   max-height: 110px;
@@ -31,7 +31,6 @@
 
 .address {
   justify-self: end;
-  max-width: 204px;
   max-width: 240px;
   font-style: normal;
   line-height: 24px;

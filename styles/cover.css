@@ -27,6 +27,31 @@
   text-transform: uppercase;
 }
 
+.blocked-span {
+  display: block;
+  line-height: 122px;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing {
+  letter-spacing: 30px;
+}
+
+.letter-spacing-extend {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
 .cover__description {
   position: relative;
   z-index: 1;
@@ -48,33 +73,13 @@
 
 .description-text {
   color: #fff;
+  font-family: Raleway, serif;
   font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.002em;
   text-align: center;
   text-transform: uppercase;
-  word-spacing: 18px;
-}
-
-.blocked-span {
-  display: block;
-  line-height: 122px;
-}
-
-.aligned-text_center {
-  text-align: center;
-}
-
-.aligned-text_right {
-  position: relative;
-  left: 30px;
-  text-align: right;
-}
-
-.letter-spacing {
-  letter-spacing: 30px;
-}
-
-.letter-spacing-extend {
-  letter-spacing: 60px;
+  word-spacing: 0.8em;
 }
 
 .bet-button {

@@ -4,17 +4,16 @@
   max-width: 1440px;
   min-height: 757px;
   margin: auto;
-  padding: 0 50px 0 50px;
+  padding: 165px 50px 0 50px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
 }
 
 .cover__content {
-  position: relative;
-  top: 168px;
   display: grid;
-  grid-template-rows: 2fr 1fr;
-  gap: 55px;
+  grid-template-rows: 355px 52px;
+  align-content: end;
+  gap: 135px;
 }
 
 .cover__title {
@@ -24,16 +23,8 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
+  line-height: 100px;
   text-transform: uppercase;
-}
-
-.overlay {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  width: 100%;
-  opacity: 0.6;
-  background-color: black;
 }
 
 .cover__description {
@@ -46,8 +37,16 @@
   width: 100%;
 }
 
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  opacity: 0.6;
+  background-color: black;
+}
+
 .description-text {
-  align-items: end;
   color: #fff;
   font-size: 22px;
   text-align: center;
